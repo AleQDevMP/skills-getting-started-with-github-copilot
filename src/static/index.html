@@ -39,6 +39,31 @@
         </form>
         <div id="message" class="hidden"></div>
       </section>
+
+      <div class="activity-card">
+        <!-- ...otros datos de la actividad... -->
+        <h4><!-- Nombre de la actividad --></h4>
+        <p><!-- Descripción --></p>
+        <p><!-- Horario --></p>
+        <!-- ...otros elementos... -->
+
+        <div class="activity-card-participants">
+          <h5>Participantes inscritos:</h5>
+          <ul>
+            <!-- Suponiendo que tienes una variable participants para cada actividad -->
+            <!-- Ejemplo en JS/templating: -->
+            <!--
+            {% for participant in activity.participants %}
+              <li>{{ participant }}</li>
+            {% endfor %}
+            -->
+            <!-- Si es estático, puedes poner directamente los correos: -->
+            <li>michael@mergington.edu</li>
+            <li>daniel@mergington.edu</li>
+            <!-- ...etc... -->
+          </ul>
+        </div>
+      </div>
     </main>
 
     <footer>
